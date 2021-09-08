@@ -1,4 +1,4 @@
-##Parking Map
+## Parking Map
 The purpose of this application was to generate an interactive parking map for specific location within a given city using mapbox's integration into the react platform. The map also uses integrations in Google's Firebase platform to store data that is used to build the geolocations for giving parking vectors.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
