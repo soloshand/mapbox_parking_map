@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The purpose of this application was to generate an interactive parking map for specific location within a given city using mapbox's integration into the react platform.
+
 ## Available Scripts
 
 In the project directory, you can run:
