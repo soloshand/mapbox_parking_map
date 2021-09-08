@@ -12,7 +12,7 @@ class generateFirebaseList extends Component {
 
     componentDidMount() {
 
-        this.dbRef = firebase.database().ref('/parking-app');
+        this.dbRef = firebase.database().ref('/project_name');
         this.dbRef.on('value', snapshot =>{
             
             const markers = [];
