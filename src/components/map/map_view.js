@@ -21,8 +21,8 @@ constructor(props) {
         viewport: {
             width: "100vw",
             height: "100vh",
-            latitude: 36.302443,
-            longitude: -82.368914,
+            latitude: lat,
+            longitude: long,
             zoom: 14
         },
         markers: []
@@ -42,15 +42,15 @@ componentDidMount() {
             if(snap.parking[key].enabled) {
                 
                 const lot = snap.parking[key];
-                const {capacity} = lot.t2;
-                let { available } = lot.t2;
+                const {capacity} = lot.object;
+                let { available } = lot.object;
 
                 if (available > capacity ) available = capacity;
 
                 markers.push({
                     key,
-                    description: lot.t2.description,
-                    timestamp: lot.t2.timestamp,
+                    description: lot.object.description,
+                    timestamp: lot.object.timestamp,
                     coordinate: {
                         latitude: lot.coords.lat,
                         longitude: lot.coords.lng
