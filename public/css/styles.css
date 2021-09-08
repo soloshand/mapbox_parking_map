@@ -1,0 +1,14 @@
+.mapboxgl-popup {
+    z-index: 1;
+}
+
+.mapboxgl-popup-content {
+
+    /*background: #F5F1DE !important;*/
+    background: #fff !important;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    border: 2px solid #041E42;
+    border-radius: 4px;
+    padding: 0px !important;
+}
