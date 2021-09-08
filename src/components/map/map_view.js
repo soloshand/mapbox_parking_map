@@ -4,7 +4,6 @@ import Marker from '../parking/Marker'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { mapBoxToken } from '../configs'
 import firebase from '../firebase/firebase'
-//import Marker from '../parking/Marker';
 
 const geolocateStyle = {
     float: 'left',
